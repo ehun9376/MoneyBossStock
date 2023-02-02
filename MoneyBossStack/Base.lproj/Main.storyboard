@@ -28,12 +28,12 @@
         <scene sceneID="xUb-CV-gyC">
             <objects>
                 <navigationController storyboardIdentifier="NavigationVC" id="6kC-N5-Vmh" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="l5L-HL-AOO">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" translucent="NO" id="l5L-HL-AOO">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
-                        <segue destination="7tv-Qv-ZKG" kind="relationship" relationship="rootViewController" id="6Qh-Vd-0dG"/>
+                        <segue destination="7tv-Qv-ZKG" kind="relationship" relationship="rootViewController" id="deO-WV-XlH"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lOy-8n-Nmh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -45,7 +45,7 @@
             <objects>
                 <viewController id="7tv-Qv-ZKG" customClass="FeverViewController" customModule="MoneyBossStack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="e9m-9g-HZE">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="749"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="DUS-uW-xEL"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
