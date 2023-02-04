@@ -28,11 +28,10 @@ class LaunchViewController: BaseViewController {
     
     func toVC() {
         DispatchQueue.main.async {
-            if let vc = self.storyboard?.instantiateViewController(withIdentifier: "NavigationVC")  as? UINavigationController {
-                vc.navigationBar.isTranslucent = false
-                UIApplication.shared.windows.first?.rootViewController = vc
-//                UIApplication.shared.windows.first?.makeKeyAndVisible()
-            }
+            let vc = UINavigationController(rootViewController: FeverViewController())
+            UIApplication.shared.windows.first?.rootViewController = vc
+            UIApplication.shared.windows.first?.makeKeyAndVisible()
+            
         }
     }
     

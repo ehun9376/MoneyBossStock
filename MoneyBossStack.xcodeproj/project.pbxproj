@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		36FA3D38298A327D001AFC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D37298A327D001AFC6A /* AppDelegate.swift */; };
 		36FA3D3C298A327D001AFC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D3B298A327D001AFC6A /* ViewController.swift */; };
-		36FA3D3F298A327D001AFC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D3D298A327D001AFC6A /* Main.storyboard */; };
 		36FA3D41298A327E001AFC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D40298A327E001AFC6A /* Assets.xcassets */; };
-		36FA3D44298A327E001AFC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D42298A327E001AFC6A /* LaunchScreen.storyboard */; };
 		36FA3D4F298A327F001AFC6A /* MoneyBossStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D4E298A327F001AFC6A /* MoneyBossStackTests.swift */; };
 		36FA3D59298A327F001AFC6A /* MoneyBossStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D58298A327F001AFC6A /* MoneyBossStackUITests.swift */; };
 		36FA3D5B298A327F001AFC6A /* MoneyBossStackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D5A298A327F001AFC6A /* MoneyBossStackUITestsLaunchTests.swift */; };
@@ -36,6 +34,8 @@
 		36FA3D93298A496B001AFC6A /* FeverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D92298A496B001AFC6A /* FeverViewModel.swift */; };
 		36FA3D96298A4A61001AFC6A /* URLSessionWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D95298A4A61001AFC6A /* URLSessionWebSocket.swift */; };
 		36FA3D99298A5851001AFC6A /* StackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */; };
+		36FCD7DB298C8E5C00CF32E3 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCD7DA298C8E5C00CF32E3 /* TopView.swift */; };
+		36FCD7DF298C905900CF32E3 /* FivePortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCD7DE298C905900CF32E3 /* FivePortView.swift */; };
 		55A0EBB03409D4545A3FA9A3 /* Pods_MoneyBossStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2951075DE63D9E732D06D280 /* Pods_MoneyBossStack.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,9 +61,7 @@
 		36FA3D34298A327D001AFC6A /* MoneyBossStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBossStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FA3D37298A327D001AFC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36FA3D3B298A327D001AFC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		36FA3D3E298A327D001AFC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36FA3D40298A327E001AFC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		36FA3D43298A327E001AFC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36FA3D45298A327E001AFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FA3D4A298A327F001AFC6A /* MoneyBossStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyBossStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FA3D4E298A327F001AFC6A /* MoneyBossStackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyBossStackTests.swift; sourceTree = "<group>"; };
@@ -91,6 +89,8 @@
 		36FA3D92298A496B001AFC6A /* FeverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeverViewModel.swift; sourceTree = "<group>"; };
 		36FA3D95298A4A61001AFC6A /* URLSessionWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionWebSocket.swift; sourceTree = "<group>"; };
 		36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDetailViewController.swift; sourceTree = "<group>"; };
+		36FCD7DA298C8E5C00CF32E3 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
+		36FCD7DE298C905900CF32E3 /* FivePortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivePortView.swift; sourceTree = "<group>"; };
 		D0D2A56C7555E45089576A1B /* Pods-MoneyBossStack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyBossStack.debug.xcconfig"; path = "Target Support Files/Pods-MoneyBossStack/Pods-MoneyBossStack.debug.xcconfig"; sourceTree = "<group>"; };
 		D6C7112A16D22B87738305D2 /* Pods-MoneyBossStack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyBossStack.release.xcconfig"; path = "Target Support Files/Pods-MoneyBossStack/Pods-MoneyBossStack.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -153,9 +153,7 @@
 				36FA3D7B298A3659001AFC6A /* CustomView */,
 				36FA3D74298A3644001AFC6A /* Hepler */,
 				36FA3D67298A3625001AFC6A /* Bass */,
-				36FA3D3D298A327D001AFC6A /* Main.storyboard */,
 				36FA3D40298A327E001AFC6A /* Assets.xcassets */,
-				36FA3D42298A327E001AFC6A /* LaunchScreen.storyboard */,
 				36FA3D45298A327E001AFC6A /* Info.plist */,
 			);
 			path = MoneyBossStack;
@@ -262,6 +260,8 @@
 			isa = PBXGroup;
 			children = (
 				36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */,
+				36FCD7DA298C8E5C00CF32E3 /* TopView.swift */,
+				36FCD7DE298C905900CF32E3 /* FivePortView.swift */,
 			);
 			path = StackDetailViewController;
 			sourceTree = "<group>";
@@ -390,9 +390,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36FA3D8A298A392E001AFC6A /* StackCell.xib in Resources */,
-				36FA3D44298A327E001AFC6A /* LaunchScreen.storyboard in Resources */,
 				36FA3D41298A327E001AFC6A /* Assets.xcassets in Resources */,
-				36FA3D3F298A327D001AFC6A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +464,7 @@
 				36FA3D78298A364E001AFC6A /* UserInfoCenter.swift in Sources */,
 				36FA3D73298A3637001AFC6A /* BaseTableViewController.swift in Sources */,
 				36FA3D38298A327D001AFC6A /* AppDelegate.swift in Sources */,
+				36FCD7DB298C8E5C00CF32E3 /* TopView.swift in Sources */,
 				36FA3D93298A496B001AFC6A /* FeverViewModel.swift in Sources */,
 				36FA3D7A298A364E001AFC6A /* KeyboardHelper.swift in Sources */,
 				36FA3D81298A371A001AFC6A /* LaunchviewController.swift in Sources */,
@@ -481,6 +480,7 @@
 				36FA3D6F298A3637001AFC6A /* CellProtocol.swift in Sources */,
 				36FA3D7F298A3665001AFC6A /* SwiftButton.swift in Sources */,
 				36FA3D83298A3826001AFC6A /* FeverViewController.swift in Sources */,
+				36FCD7DF298C905900CF32E3 /* FivePortView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,25 +515,6 @@
 			targetProxy = 36FA3D55298A327F001AFC6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		36FA3D3D298A327D001AFC6A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36FA3D3E298A327D001AFC6A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		36FA3D42298A327E001AFC6A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36FA3D43298A327E001AFC6A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		36FA3D5C298A327F001AFC6A /* Debug */ = {
@@ -663,7 +644,6 @@
 				INFOPLIST_FILE = MoneyBossStack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -693,7 +673,6 @@
 				INFOPLIST_FILE = MoneyBossStack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
