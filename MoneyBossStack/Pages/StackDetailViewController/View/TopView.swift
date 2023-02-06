@@ -86,7 +86,7 @@ class TopView: UIView {
         
         
         self.priceLabel.translatesAutoresizingMaskIntoConstraints = false
-        self.priceLabel.font = .systemFont(ofSize: 18, weight: .bold)
+        self.priceLabel.font = .systemFont(ofSize: 22, weight: .bold)
         self.priceLabel.adjustsFontSizeToFitWidth = true
         
         self.compareLabel.translatesAutoresizingMaskIntoConstraints = false
@@ -225,7 +225,7 @@ class TopView: UIView {
             leftView.widthAnchor.constraint(equalToConstant: UIScreen.main.bounds.width / 7 * 3),
             
             priceLabel.topAnchor.constraint(equalTo: leftView.topAnchor, constant: 30),
-            priceLabel.leadingAnchor.constraint(equalTo: leftView.leadingAnchor, constant: 30),
+            priceLabel.leadingAnchor.constraint(equalTo: leftView.leadingAnchor, constant: 20),
             
             compareAndpercentStackView.topAnchor.constraint(equalTo: self.priceLabel.bottomAnchor, constant: 5),
             compareAndpercentStackView.leadingAnchor.constraint(equalTo: self.priceLabel.leadingAnchor),

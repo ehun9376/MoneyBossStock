@@ -7,8 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		368E2D6529909A57009222C7 /* CharViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6429909A57009222C7 /* CharViewController.swift */; };
+		368E2D6B29909AD3009222C7 /* HSTimeLineCoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6729909AD3009222C7 /* HSTimeLineCoordModel.swift */; };
+		368E2D6C29909AD3009222C7 /* HSTimeLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6829909AD3009222C7 /* HSTimeLineStyle.swift */; };
+		368E2D6D29909AD3009222C7 /* HSTimeLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6929909AD3009222C7 /* HSTimeLineModel.swift */; };
+		368E2D6E29909AD3009222C7 /* HSTimeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6A29909AD3009222C7 /* HSTimeLine.swift */; };
+		368E2D7029909B10009222C7 /* HSStockBasicInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D6F29909B0F009222C7 /* HSStockBasicInfoModel.swift */; };
+		368E2D7929909B3B009222C7 /* HSKLineCoordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7329909B3A009222C7 /* HSKLineCoordModel.swift */; };
+		368E2D7A29909B3B009222C7 /* HSKLineUpFrontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7429909B3B009222C7 /* HSKLineUpFrontView.swift */; };
+		368E2D7B29909B3B009222C7 /* HSKLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7529909B3B009222C7 /* HSKLineView.swift */; };
+		368E2D7C29909B3B009222C7 /* HSKLineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7629909B3B009222C7 /* HSKLineModel.swift */; };
+		368E2D7D29909B3B009222C7 /* HSKLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7729909B3B009222C7 /* HSKLine.swift */; };
+		368E2D7E29909B3B009222C7 /* HSKLineStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7829909B3B009222C7 /* HSKLineStyle.swift */; };
+		368E2D8129909C9C009222C7 /* HSStockChartNameSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D7F29909C9C009222C7 /* HSStockChartNameSpace.swift */; };
+		368E2D8429909D54009222C7 /* HSDrawLayerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D8329909D54009222C7 /* HSDrawLayerProtocol.swift */; };
+		368E2D8D2990A04E009222C7 /* kLineForMonth.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D862990A04E009222C7 /* kLineForMonth.json */; };
+		368E2D8E2990A04E009222C7 /* kLineForWeek.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D872990A04E009222C7 /* kLineForWeek.json */; };
+		368E2D8F2990A04E009222C7 /* kLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D882990A04E009222C7 /* kLineForDay.json */; };
+		368E2D902990A04E009222C7 /* FiveTrade.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D892990A04E009222C7 /* FiveTrade.json */; };
+		368E2D912990A04E009222C7 /* timeLineForFiveday.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D8A2990A04E009222C7 /* timeLineForFiveday.json */; };
+		368E2D922990A04E009222C7 /* SZ300033.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D8B2990A04E009222C7 /* SZ300033.json */; };
+		368E2D932990A04E009222C7 /* timeLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D8C2990A04E009222C7 /* timeLineForDay.json */; };
 		36FA3D38298A327D001AFC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D37298A327D001AFC6A /* AppDelegate.swift */; };
-		36FA3D3C298A327D001AFC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D3B298A327D001AFC6A /* ViewController.swift */; };
 		36FA3D41298A327E001AFC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D40298A327E001AFC6A /* Assets.xcassets */; };
 		36FA3D4F298A327F001AFC6A /* MoneyBossStackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D4E298A327F001AFC6A /* MoneyBossStackTests.swift */; };
 		36FA3D59298A327F001AFC6A /* MoneyBossStackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D58298A327F001AFC6A /* MoneyBossStackUITests.swift */; };
@@ -58,9 +78,29 @@
 
 /* Begin PBXFileReference section */
 		2951075DE63D9E732D06D280 /* Pods_MoneyBossStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MoneyBossStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		368E2D6429909A57009222C7 /* CharViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharViewController.swift; sourceTree = "<group>"; };
+		368E2D6729909AD3009222C7 /* HSTimeLineCoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineCoordModel.swift; sourceTree = "<group>"; };
+		368E2D6829909AD3009222C7 /* HSTimeLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineStyle.swift; sourceTree = "<group>"; };
+		368E2D6929909AD3009222C7 /* HSTimeLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLineModel.swift; sourceTree = "<group>"; };
+		368E2D6A29909AD3009222C7 /* HSTimeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSTimeLine.swift; sourceTree = "<group>"; };
+		368E2D6F29909B0F009222C7 /* HSStockBasicInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSStockBasicInfoModel.swift; sourceTree = "<group>"; };
+		368E2D7329909B3A009222C7 /* HSKLineCoordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineCoordModel.swift; sourceTree = "<group>"; };
+		368E2D7429909B3B009222C7 /* HSKLineUpFrontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineUpFrontView.swift; sourceTree = "<group>"; };
+		368E2D7529909B3B009222C7 /* HSKLineView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineView.swift; sourceTree = "<group>"; };
+		368E2D7629909B3B009222C7 /* HSKLineModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineModel.swift; sourceTree = "<group>"; };
+		368E2D7729909B3B009222C7 /* HSKLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLine.swift; sourceTree = "<group>"; };
+		368E2D7829909B3B009222C7 /* HSKLineStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSKLineStyle.swift; sourceTree = "<group>"; };
+		368E2D7F29909C9C009222C7 /* HSStockChartNameSpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSStockChartNameSpace.swift; sourceTree = "<group>"; };
+		368E2D8329909D54009222C7 /* HSDrawLayerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDrawLayerProtocol.swift; sourceTree = "<group>"; };
+		368E2D862990A04E009222C7 /* kLineForMonth.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForMonth.json; sourceTree = "<group>"; };
+		368E2D872990A04E009222C7 /* kLineForWeek.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForWeek.json; sourceTree = "<group>"; };
+		368E2D882990A04E009222C7 /* kLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = kLineForDay.json; sourceTree = "<group>"; };
+		368E2D892990A04E009222C7 /* FiveTrade.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FiveTrade.json; sourceTree = "<group>"; };
+		368E2D8A2990A04E009222C7 /* timeLineForFiveday.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForFiveday.json; sourceTree = "<group>"; };
+		368E2D8B2990A04E009222C7 /* SZ300033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SZ300033.json; sourceTree = "<group>"; };
+		368E2D8C2990A04E009222C7 /* timeLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForDay.json; sourceTree = "<group>"; };
 		36FA3D34298A327D001AFC6A /* MoneyBossStack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBossStack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FA3D37298A327D001AFC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36FA3D3B298A327D001AFC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36FA3D40298A327E001AFC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36FA3D45298A327E001AFC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		36FA3D4A298A327F001AFC6A /* MoneyBossStackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyBossStackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +161,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		368E2D6629909AC5009222C7 /* TimeLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				368E2D6A29909AD3009222C7 /* HSTimeLine.swift */,
+				368E2D6729909AD3009222C7 /* HSTimeLineCoordModel.swift */,
+				368E2D6929909AD3009222C7 /* HSTimeLineModel.swift */,
+				368E2D6829909AD3009222C7 /* HSTimeLineStyle.swift */,
+			);
+			path = TimeLineChart;
+			sourceTree = "<group>";
+		};
+		368E2D7129909B12009222C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				368E2D6F29909B0F009222C7 /* HSStockBasicInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		368E2D7229909B2B009222C7 /* KLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				368E2D7729909B3B009222C7 /* HSKLine.swift */,
+				368E2D7329909B3A009222C7 /* HSKLineCoordModel.swift */,
+				368E2D7629909B3B009222C7 /* HSKLineModel.swift */,
+				368E2D7829909B3B009222C7 /* HSKLineStyle.swift */,
+				368E2D7429909B3B009222C7 /* HSKLineUpFrontView.swift */,
+				368E2D7529909B3B009222C7 /* HSKLineView.swift */,
+			);
+			path = KLineChart;
+			sourceTree = "<group>";
+		};
+		368E2D852990A044009222C7 /* SampleData */ = {
+			isa = PBXGroup;
+			children = (
+				368E2D892990A04E009222C7 /* FiveTrade.json */,
+				368E2D882990A04E009222C7 /* kLineForDay.json */,
+				368E2D862990A04E009222C7 /* kLineForMonth.json */,
+				368E2D872990A04E009222C7 /* kLineForWeek.json */,
+				368E2D8B2990A04E009222C7 /* SZ300033.json */,
+				368E2D8C2990A04E009222C7 /* timeLineForDay.json */,
+				368E2D8A2990A04E009222C7 /* timeLineForFiveday.json */,
+			);
+			path = SampleData;
+			sourceTree = "<group>";
+		};
+		368E2D942990D313009222C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				36FCD7DA298C8E5C00CF32E3 /* TopView.swift */,
+				36FCD7DE298C905900CF32E3 /* FivePortView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		36FA3D2B298A327C001AFC6A = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +242,16 @@
 			isa = PBXGroup;
 			children = (
 				36FA3D37298A327D001AFC6A /* AppDelegate.swift */,
-				36FA3D3B298A327D001AFC6A /* ViewController.swift */,
+				368E2D7F29909C9C009222C7 /* HSStockChartNameSpace.swift */,
+				368E2D8329909D54009222C7 /* HSDrawLayerProtocol.swift */,
+				368E2D7229909B2B009222C7 /* KLineChart */,
+				368E2D6629909AC5009222C7 /* TimeLineChart */,
 				36FA3D94298A4A47001AFC6A /* Net */,
 				36FA3D84298A3862001AFC6A /* Pages */,
 				36FA3D7B298A3659001AFC6A /* CustomView */,
 				36FA3D74298A3644001AFC6A /* Hepler */,
 				36FA3D67298A3625001AFC6A /* Bass */,
+				368E2D852990A044009222C7 /* SampleData */,
 				36FA3D40298A327E001AFC6A /* Assets.xcassets */,
 				36FA3D45298A327E001AFC6A /* Info.plist */,
 			);
@@ -260,8 +359,9 @@
 			isa = PBXGroup;
 			children = (
 				36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */,
-				36FCD7DA298C8E5C00CF32E3 /* TopView.swift */,
-				36FCD7DE298C905900CF32E3 /* FivePortView.swift */,
+				368E2D6429909A57009222C7 /* CharViewController.swift */,
+				368E2D942990D313009222C7 /* View */,
+				368E2D7129909B12009222C7 /* Model */,
 			);
 			path = StackDetailViewController;
 			sourceTree = "<group>";
@@ -389,8 +489,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				368E2D902990A04E009222C7 /* FiveTrade.json in Resources */,
+				368E2D8D2990A04E009222C7 /* kLineForMonth.json in Resources */,
 				36FA3D8A298A392E001AFC6A /* StackCell.xib in Resources */,
+				368E2D922990A04E009222C7 /* SZ300033.json in Resources */,
 				36FA3D41298A327E001AFC6A /* Assets.xcassets in Resources */,
+				368E2D8E2990A04E009222C7 /* kLineForWeek.json in Resources */,
+				368E2D912990A04E009222C7 /* timeLineForFiveday.json in Resources */,
+				368E2D932990A04E009222C7 /* timeLineForDay.json in Resources */,
+				368E2D8F2990A04E009222C7 /* kLineForDay.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,27 +566,40 @@
 			files = (
 				36FA3D88298A3894001AFC6A /* StackCell.swift in Sources */,
 				36FA3D6E298A3637001AFC6A /* CollectionViewAdapter.swift in Sources */,
-				36FA3D3C298A327D001AFC6A /* ViewController.swift in Sources */,
+				368E2D6B29909AD3009222C7 /* HSTimeLineCoordModel.swift in Sources */,
 				36FA3D7E298A3665001AFC6A /* StackBottomBarView.swift in Sources */,
 				36FA3D78298A364E001AFC6A /* UserInfoCenter.swift in Sources */,
 				36FA3D73298A3637001AFC6A /* BaseTableViewController.swift in Sources */,
 				36FA3D38298A327D001AFC6A /* AppDelegate.swift in Sources */,
+				368E2D7C29909B3B009222C7 /* HSKLineModel.swift in Sources */,
+				368E2D7929909B3B009222C7 /* HSKLineCoordModel.swift in Sources */,
 				36FCD7DB298C8E5C00CF32E3 /* TopView.swift in Sources */,
+				368E2D7A29909B3B009222C7 /* HSKLineUpFrontView.swift in Sources */,
 				36FA3D93298A496B001AFC6A /* FeverViewModel.swift in Sources */,
+				368E2D6529909A57009222C7 /* CharViewController.swift in Sources */,
+				368E2D6D29909AD3009222C7 /* HSTimeLineModel.swift in Sources */,
+				368E2D7029909B10009222C7 /* HSStockBasicInfoModel.swift in Sources */,
 				36FA3D7A298A364E001AFC6A /* KeyboardHelper.swift in Sources */,
+				368E2D8429909D54009222C7 /* HSDrawLayerProtocol.swift in Sources */,
 				36FA3D81298A371A001AFC6A /* LaunchviewController.swift in Sources */,
 				36FA3D8F298A478E001AFC6A /* JBJson.swift in Sources */,
 				36FA3D91298A48D4001AFC6A /* StackModel.swift in Sources */,
 				36FA3D96298A4A61001AFC6A /* URLSessionWebSocket.swift in Sources */,
 				36FA3D71298A3637001AFC6A /* BaseCollectionViewController.swift in Sources */,
+				368E2D7D29909B3B009222C7 /* HSKLine.swift in Sources */,
+				368E2D6E29909AD3009222C7 /* HSTimeLine.swift in Sources */,
+				368E2D7E29909B3B009222C7 /* HSKLineStyle.swift in Sources */,
 				36FA3D99298A5851001AFC6A /* StackDetailViewController.swift in Sources */,
 				36FA3D8D298A4788001AFC6A /* Extension.swift in Sources */,
 				36FA3D70298A3637001AFC6A /* TableViewAdapter.swift in Sources */,
 				36FA3D79298A364E001AFC6A /* IAPCenter.swift in Sources */,
+				368E2D8129909C9C009222C7 /* HSStockChartNameSpace.swift in Sources */,
 				36FA3D72298A3637001AFC6A /* BaseViewController.swift in Sources */,
+				368E2D7B29909B3B009222C7 /* HSKLineView.swift in Sources */,
 				36FA3D6F298A3637001AFC6A /* CellProtocol.swift in Sources */,
 				36FA3D7F298A3665001AFC6A /* SwiftButton.swift in Sources */,
 				36FA3D83298A3826001AFC6A /* FeverViewController.swift in Sources */,
+				368E2D6C29909AD3009222C7 /* HSTimeLineStyle.swift in Sources */,
 				36FCD7DF298C905900CF32E3 /* FivePortView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
