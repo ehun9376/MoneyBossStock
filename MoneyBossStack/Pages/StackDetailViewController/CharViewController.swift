@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import HSStockChart
 
 class ChartViewController: UIViewController {
     
@@ -17,6 +18,13 @@ class ChartViewController: UIViewController {
 
     
     // MARK: - Life Circle
+    
+    convenience init(
+        type: HSChartType = .timeLineForDay
+    ) {
+        self.init()
+        self.chartType = type
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

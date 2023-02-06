@@ -7,6 +7,7 @@
 
 import Foundation
 import UIKit
+import HSStockChart
 
 
 
@@ -26,8 +27,11 @@ class StackDetailViewController: BaseViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .white
         self.setupSegmentedControl()
+        
         self.setupTopView(model: .init(lastDayPrice: 10000, price: 11000, tradingVolume: 20, heightPrice: 11555, openPrice: 9999, lowPrice: 8888))
+        
         self.setupFivePortView(model: .init(updateTime: "2023", buy1Price: 1000, buy1Volumn: 100000, buy2Price: 41863, buy2Volumn: 1000, buy3Price: 1000000, buy3Volumn: 10, buy4Price: 1, buy4Volumn: 1, buy5Price: 10000, buy5Volumn: 1529, sell1Price: 98900, sell1Volumn: 456489435, sell2Price: 148945, sell2Volumn: 0840, sell3Price: 849456, sell3Volumn: 48453, sell4Price: 84964065, sell4Volumn: 489484, sell5Price: 3468046, sell5Volumn: 846))
+        
         self.addAllSubView()
         self.addChartController()
         self.changeController(index: 0)
@@ -127,28 +131,23 @@ class StackDetailViewController: BaseViewController {
     func addChartController() {
         
         // 分时线
-        let timeViewcontroller = ChartViewController()
-        timeViewcontroller.chartType = HSChartType.timeLineForDay
+        let timeViewcontroller = ChartViewController(type: .timeLineForDay)
         controllerArray.append(timeViewcontroller)
         
         // 五日分时线
-        let fiveDayTimeViewController = ChartViewController()
-        fiveDayTimeViewController.chartType = HSChartType.timeLineForFiveday
+        let fiveDayTimeViewController = ChartViewController(type: .timeLineForFiveday)
         controllerArray.append(fiveDayTimeViewController)
         
         // 日 K 线
-        let kLineViewController = ChartViewController()
-        kLineViewController.chartType = HSChartType.kLineForDay
+        let kLineViewController = ChartViewController(type: .kLineForDay)
         controllerArray.append(kLineViewController)
         
         // 周 K 线
-        let weeklyKLineViewController = ChartViewController()
-        weeklyKLineViewController.chartType = HSChartType.kLineForWeek
+        let weeklyKLineViewController = ChartViewController(type: .kLineForWeek)
         controllerArray.append(weeklyKLineViewController)
         
         // 月 K 线
-        let monthlyKLineViewController = ChartViewController()
-        monthlyKLineViewController.chartType = HSChartType.kLineForMonth
+        let monthlyKLineViewController = ChartViewController(type: .kLineForMonth)
         controllerArray.append(monthlyKLineViewController)
     }
     
