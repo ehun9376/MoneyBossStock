@@ -13,9 +13,8 @@ class ChartViewController: UIViewController {
     
     var chartType: HSChartType = .timeLineForDay
     var timeLineView: HSTimeLine?
-    lazy var chartRect: CGRect = self.view.frame
     var isLandscapeMode: Bool = false
-
+    
     
     // MARK: - Life Circle
     
@@ -26,36 +25,16 @@ class ChartViewController: UIViewController {
         self.chartType = type
     }
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        setUpViewController()
-        print(self.view.frame)
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-    }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        print(self.view.frame)
-    }
-    
-    override func viewDidLayoutSubviews() {
-        print(self.view.frame)
-    }
-    
     override func viewDidAppear(_ animated: Bool) {
-        print(self.view.frame)
-    }
-    
-    override func viewWillDisappear(_ animated: Bool) {
-        
+        print("ChartViewController-viewDidAppear \(self.view.frame)")
+        self.setupViewController()
     }
     
     // MARK: - Function
     
-    func setUpViewController() {
+    func setupViewController() {
         let stockBasicInfo = HSStockBasicInfoModel(json: getJsonDataFromFile("SZ300033"))
+        let chartRect: CGRect = .init(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height)
         
         switch chartType {
         case .timeLineForDay:

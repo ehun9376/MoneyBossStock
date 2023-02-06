@@ -68,7 +68,6 @@ class StackDetailViewController: BaseViewController {
         currentShowingChartVC?.removeFromParent()
         
         if let selectedVC = self.controllerArray[index] as? ChartViewController {
-            selectedVC.chartRect = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 300)
             selectedVC.view.translatesAutoresizingMaskIntoConstraints = false
             self.view.addSubview(selectedVC.view)
             
