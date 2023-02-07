@@ -79,7 +79,6 @@
 		369B114429924445003F2660 /* CellProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellProtocol.swift; sourceTree = "<group>"; };
 		369B114529924445003F2660 /* JBJson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBJson.swift; sourceTree = "<group>"; };
 		369B114629924445003F2660 /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
-		369B114729924445003F2660 /* Developebase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Developebase.h; sourceTree = "<group>"; };
 		369B114829924445003F2660 /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
 		369B114929924445003F2660 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		369B114A29924445003F2660 /* KeyboardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHelper.swift; sourceTree = "<group>"; };
@@ -176,6 +175,22 @@
 			path = Chart;
 			sourceTree = "<group>";
 		};
+		369B1159299244C4003F2660 /* DevelopBase */ = {
+			isa = PBXGroup;
+			children = (
+				369B114B29924445003F2660 /* BaseCollectionViewController.swift */,
+				369B114829924445003F2660 /* BaseTableViewController.swift */,
+				369B114C29924445003F2660 /* BaseViewController.swift */,
+				369B114429924445003F2660 /* CellProtocol.swift */,
+				369B114D29924445003F2660 /* CollectionViewAdapter.swift */,
+				369B114929924445003F2660 /* Extension.swift */,
+				369B114529924445003F2660 /* JBJson.swift */,
+				369B114A29924445003F2660 /* KeyboardHelper.swift */,
+				369B114629924445003F2660 /* TableViewAdapter.swift */,
+			);
+			path = DevelopBase;
+			sourceTree = "<group>";
+		};
 		36FA3D2B298A327C001AFC6A = {
 			isa = PBXGroup;
 			children = (
@@ -205,16 +220,7 @@
 				36FA3D7B298A3659001AFC6A /* CustomView */,
 				36FA3D74298A3644001AFC6A /* Hepler */,
 				368E2D852990A044009222C7 /* SampleData */,
-				369B114B29924445003F2660 /* BaseCollectionViewController.swift */,
-				369B114829924445003F2660 /* BaseTableViewController.swift */,
-				369B114C29924445003F2660 /* BaseViewController.swift */,
-				369B114429924445003F2660 /* CellProtocol.swift */,
-				369B114D29924445003F2660 /* CollectionViewAdapter.swift */,
-				369B114729924445003F2660 /* Developebase.h */,
-				369B114929924445003F2660 /* Extension.swift */,
-				369B114529924445003F2660 /* JBJson.swift */,
-				369B114A29924445003F2660 /* KeyboardHelper.swift */,
-				369B114629924445003F2660 /* TableViewAdapter.swift */,
+				369B1159299244C4003F2660 /* DevelopBase */,
 				36FA3D40298A327E001AFC6A /* Assets.xcassets */,
 				36FA3D45298A327E001AFC6A /* Info.plist */,
 			);
