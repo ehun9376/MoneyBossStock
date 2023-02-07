@@ -17,6 +17,7 @@
 		368E2D922990A04E009222C7 /* SZ300033.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D8B2990A04E009222C7 /* SZ300033.json */; };
 		368E2D932990A04E009222C7 /* timeLineForDay.json in Resources */ = {isa = PBXBuildFile; fileRef = 368E2D8C2990A04E009222C7 /* timeLineForDay.json */; };
 		368E2DA02990FB53009222C7 /* ChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368E2D9F2990FB53009222C7 /* ChartViewModel.swift */; };
+		369B10AD2991E0DA003F2660 /* StockDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369B10AC2991E0DA003F2660 /* StockDetailViewModel.swift */; };
 		36FA3D38298A327D001AFC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D37298A327D001AFC6A /* AppDelegate.swift */; };
 		36FA3D41298A327E001AFC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D40298A327E001AFC6A /* Assets.xcassets */; };
 		36FA3D6E298A3637001AFC6A /* CollectionViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D68298A3637001AFC6A /* CollectionViewAdapter.swift */; };
@@ -36,10 +37,10 @@
 		36FA3D8A298A392E001AFC6A /* StackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36FA3D89298A392E001AFC6A /* StackCell.xib */; };
 		36FA3D8D298A4788001AFC6A /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D8C298A4788001AFC6A /* Extension.swift */; };
 		36FA3D8F298A478E001AFC6A /* JBJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D8E298A478E001AFC6A /* JBJson.swift */; };
-		36FA3D91298A48D4001AFC6A /* StackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D90298A48D4001AFC6A /* StackModel.swift */; };
+		36FA3D91298A48D4001AFC6A /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D90298A48D4001AFC6A /* StockModel.swift */; };
 		36FA3D93298A496B001AFC6A /* FeverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D92298A496B001AFC6A /* FeverViewModel.swift */; };
 		36FA3D96298A4A61001AFC6A /* URLSessionWebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D95298A4A61001AFC6A /* URLSessionWebSocket.swift */; };
-		36FA3D99298A5851001AFC6A /* StackDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */; };
+		36FA3D99298A5851001AFC6A /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FA3D98298A5851001AFC6A /* StockDetailViewController.swift */; };
 		36FCD7DB298C8E5C00CF32E3 /* TopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCD7DA298C8E5C00CF32E3 /* TopView.swift */; };
 		36FCD7DF298C905900CF32E3 /* FivePortView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36FCD7DE298C905900CF32E3 /* FivePortView.swift */; };
 		9F98176CB4D5549D894D9205 /* Pods_MoneyBossStock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F45EA93DDC72438420FD7024 /* Pods_MoneyBossStock.framework */; };
@@ -74,6 +75,7 @@
 		368E2D8B2990A04E009222C7 /* SZ300033.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SZ300033.json; sourceTree = "<group>"; };
 		368E2D8C2990A04E009222C7 /* timeLineForDay.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = timeLineForDay.json; sourceTree = "<group>"; };
 		368E2D9F2990FB53009222C7 /* ChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartViewModel.swift; sourceTree = "<group>"; };
+		369B10AC2991E0DA003F2660 /* StockDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewModel.swift; sourceTree = "<group>"; };
 		36FA3D34298A327D001AFC6A /* MoneyBossStock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyBossStock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36FA3D37298A327D001AFC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		36FA3D40298A327E001AFC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,10 +99,10 @@
 		36FA3D89298A392E001AFC6A /* StackCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StackCell.xib; sourceTree = "<group>"; };
 		36FA3D8C298A4788001AFC6A /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		36FA3D8E298A478E001AFC6A /* JBJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JBJson.swift; sourceTree = "<group>"; };
-		36FA3D90298A48D4001AFC6A /* StackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackModel.swift; sourceTree = "<group>"; };
+		36FA3D90298A48D4001AFC6A /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
 		36FA3D92298A496B001AFC6A /* FeverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeverViewModel.swift; sourceTree = "<group>"; };
 		36FA3D95298A4A61001AFC6A /* URLSessionWebSocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionWebSocket.swift; sourceTree = "<group>"; };
-		36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackDetailViewController.swift; sourceTree = "<group>"; };
+		36FA3D98298A5851001AFC6A /* StockDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailViewController.swift; sourceTree = "<group>"; };
 		36FCD7DA298C8E5C00CF32E3 /* TopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopView.swift; sourceTree = "<group>"; };
 		36FCD7DE298C905900CF32E3 /* FivePortView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FivePortView.swift; sourceTree = "<group>"; };
 		641B4D8890AF8042264A16C2 /* Pods-MoneyBossStock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MoneyBossStock.debug.xcconfig"; path = "Target Support Files/Pods-MoneyBossStock/Pods-MoneyBossStock.debug.xcconfig"; sourceTree = "<group>"; };
@@ -276,7 +278,7 @@
 		36FA3D8B298A475B001AFC6A /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				36FA3D90298A48D4001AFC6A /* StackModel.swift */,
+				36FA3D90298A48D4001AFC6A /* StockModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -292,7 +294,8 @@
 		36FA3D97298A581F001AFC6A /* StackDetailViewController */ = {
 			isa = PBXGroup;
 			children = (
-				36FA3D98298A5851001AFC6A /* StackDetailViewController.swift */,
+				36FA3D98298A5851001AFC6A /* StockDetailViewController.swift */,
+				369B10AC2991E0DA003F2660 /* StockDetailViewModel.swift */,
 				368E2DA12990FD4C009222C7 /* Chart */,
 				368E2D942990D313009222C7 /* View */,
 				368E2D7129909B12009222C7 /* Model */,
@@ -511,10 +514,11 @@
 				36FA3D7A298A364E001AFC6A /* KeyboardHelper.swift in Sources */,
 				36FA3D81298A371A001AFC6A /* LaunchviewController.swift in Sources */,
 				36FA3D8F298A478E001AFC6A /* JBJson.swift in Sources */,
-				36FA3D91298A48D4001AFC6A /* StackModel.swift in Sources */,
+				36FA3D91298A48D4001AFC6A /* StockModel.swift in Sources */,
 				36FA3D96298A4A61001AFC6A /* URLSessionWebSocket.swift in Sources */,
 				36FA3D71298A3637001AFC6A /* BaseCollectionViewController.swift in Sources */,
-				36FA3D99298A5851001AFC6A /* StackDetailViewController.swift in Sources */,
+				36FA3D99298A5851001AFC6A /* StockDetailViewController.swift in Sources */,
+				369B10AD2991E0DA003F2660 /* StockDetailViewModel.swift in Sources */,
 				36FA3D8D298A4788001AFC6A /* Extension.swift in Sources */,
 				36FA3D70298A3637001AFC6A /* TableViewAdapter.swift in Sources */,
 				36FA3D79298A364E001AFC6A /* IAPCenter.swift in Sources */,

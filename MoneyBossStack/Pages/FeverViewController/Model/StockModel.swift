@@ -7,7 +7,7 @@
 
 import Foundation
 
-class StackModel: JsonModel {
+class StockModel: JsonModel {
     
     var name: String?
     

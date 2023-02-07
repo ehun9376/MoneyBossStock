@@ -31,7 +31,7 @@ extension FeverViewController: FeverMethod {
     
     func cellDidPressed(model: BaseCellModel) {
         guard let rowModel = model as? StackCellRowModel else { return }
-        let vc = StackDetailViewController()
+        let vc = StockDetailViewController()
         self.navigationController?.pushViewController(vc, animated: true)
         print(rowModel.title ?? "")
     }

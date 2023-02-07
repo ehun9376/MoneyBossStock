@@ -18,7 +18,7 @@ class FeverViewModel {
     
     var delegate: FeverMethod?
     
-    var stackModels: [StackModel] = [] {
+    var stackModels: [StockModel] = [] {
         didSet {
             self.setupRow()
         }
@@ -34,10 +34,10 @@ class FeverViewModel {
     
     func getStack() {
         self.stackModels = [
-            StackModel(name: "AAPL", subName: "ss", lastPrice: 0, nowPrice: 0),
-            StackModel(name: "ssss", subName: "tttt", lastPrice: 0, nowPrice: 0),
-            StackModel(name: "hhhh", subName: "ssss", lastPrice: 0, nowPrice: 0),
-            StackModel(name: "gggg", subName: "hhhh", lastPrice: 0, nowPrice: 0)
+            StockModel(name: "AAPL", subName: "ss", lastPrice: 0, nowPrice: 0),
+            StockModel(name: "ssss", subName: "tttt", lastPrice: 0, nowPrice: 0),
+            StockModel(name: "hhhh", subName: "ssss", lastPrice: 0, nowPrice: 0),
+            StockModel(name: "gggg", subName: "hhhh", lastPrice: 0, nowPrice: 0)
         ]
     }
     
