@@ -16,6 +16,8 @@ public class TableViewAdapter: NSObject {
     
     public var reachBottomAction: ((IndexPath) -> ())?
     
+    public var scrollViewDidScroll: ((CGFloat)->())?
+    
     public init(_ tableView: UITableView){
         super.init()
         self.tableView = tableView
@@ -66,6 +68,13 @@ extension TableViewAdapter: UITableViewDataSource {
     
     
 }
+extension TableViewAdapter: UIScrollViewDelegate {
+    public func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        self.scrollViewDidScroll?(scrollView.contentOffset.y)
+    }
+}
+
+
 extension TableViewAdapter: UITableViewDelegate {
     public func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let rowModel = self.rowModels[indexPath.row]

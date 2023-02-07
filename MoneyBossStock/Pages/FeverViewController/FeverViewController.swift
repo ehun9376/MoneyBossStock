@@ -31,9 +31,27 @@ extension FeverViewController: FeverMethod {
     
     func cellDidPressed(model: BaseCellModel) {
         guard let rowModel = model as? StackCellRowModel else { return }
-        let vc = StockDetailViewController()
+        let vc = StockDetailViewController(stockID: rowModel.title)
         self.navigationController?.pushViewController(vc, animated: true)
         print(rowModel.title ?? "")
+    }
+    func scrollViewDidScroll(offset: CGFloat) {
+        
+        var color: UIColor = .white
+
+        if (offset > 0) {
+            color = .blue
+        } else {
+            color = .gray
+        }
+        if #available(iOS 13.0, *) {
+            let barAppearance = UINavigationBarAppearance()
+            barAppearance.backgroundColor = color
+            barAppearance.shadowColor = .clear
+            barAppearance.titleTextAttributes = [NSAttributedString.Key.font: UIFont.systemFont(ofSize: 14,weight: .bold),NSAttributedString.Key.foregroundColor : UIColor.white]
+            navigationItem.standardAppearance = barAppearance
+            navigationItem.scrollEdgeAppearance = barAppearance
+        }
     }
     
 }

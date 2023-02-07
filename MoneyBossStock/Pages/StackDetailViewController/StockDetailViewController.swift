@@ -37,6 +37,8 @@ class StockDetailViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.title = stockID
+        
         self.viewModel = .init(stockID: stockID ?? "", delegate: self)
         
         self.view.backgroundColor = .white

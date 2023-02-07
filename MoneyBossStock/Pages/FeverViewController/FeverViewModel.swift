@@ -10,6 +10,7 @@ import UIKit
 
 protocol FeverMethod {
     func cellDidPressed(model: BaseCellModel)
+    func scrollViewDidScroll(offset: CGFloat)
 }
 
 class FeverViewModel {
@@ -30,6 +31,9 @@ class FeverViewModel {
     ){
         self.adapter = .init(tableView)
         self.delegate = delegate
+        self.adapter?.scrollViewDidScroll = { [weak self] offset in
+            self?.delegate?.scrollViewDidScroll(offset: offset)
+        }
     }
     
     func getStack() {
