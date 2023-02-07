@@ -1,0 +1,3 @@
+[submodule "MoneyBossStock/DevelopBase"]
+	path = MoneyBossStock/DevelopBase
+	url = https://github.com/ehun9376/DevelopeBase.git

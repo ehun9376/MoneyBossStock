@@ -178,7 +178,7 @@
 		36FA3D2B298A327C001AFC6A = {
 			isa = PBXGroup;
 			children = (
-				36FA3D36298A327D001AFC6A /* MoneyBossStack */,
+				36FA3D36298A327D001AFC6A /* MoneyBossStock */,
 				36FA3D35298A327D001AFC6A /* Products */,
 				BBD433DF0D7B2A836F6B97B4 /* Pods */,
 				4D36A74107E7A402AFABAE8E /* Frameworks */,
@@ -195,7 +195,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		36FA3D36298A327D001AFC6A /* MoneyBossStack */ = {
+		36FA3D36298A327D001AFC6A /* MoneyBossStock */ = {
 			isa = PBXGroup;
 			children = (
 				36FA3D37298A327D001AFC6A /* AppDelegate.swift */,
@@ -208,7 +208,7 @@
 				36FA3D40298A327E001AFC6A /* Assets.xcassets */,
 				36FA3D45298A327E001AFC6A /* Info.plist */,
 			);
-			path = MoneyBossStack;
+			path = MoneyBossStock;
 			sourceTree = "<group>";
 		};
 		36FA3D67298A3625001AFC6A /* Bass */ = {
@@ -686,7 +686,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NZT54R9366;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoneyBossStack/Info.plist;
+				INFOPLIST_FILE = MoneyBossStock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -717,7 +717,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NZT54R9366;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MoneyBossStack/Info.plist;
+				INFOPLIST_FILE = MoneyBossStock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
